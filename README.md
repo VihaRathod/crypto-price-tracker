@@ -1,17 +1,19 @@
+<<<<<<< HEAD
 
-#  Crypto Price Tracker
+# Crypto Price Tracker
 
 A real-time crypto price simulator built using React, Redux Toolkit, and a simulated WebSocket connection.  
 Track live updates of cryptocurrency prices with beautiful charts and responsive tables.
 
 ---
 
-##  Demo
+## Demo
+
 [Watch full video demo](https://drive.google.com/file/d/1823kK1khgUMutz4oR-9xAeAYcPPeBuvy/view?usp=drive_link)
 
 ---
 
-##  Tech Stack
+## Tech Stack
 
 - React
 - Redux Toolkit
@@ -21,7 +23,7 @@ Track live updates of cryptocurrency prices with beautiful charts and responsive
 
 ---
 
-##  Project Structure & Architecture
+## Project Structure & Architecture
 
 ```bash
 src/
@@ -48,17 +50,35 @@ src/
 ├── index.jsx                 # App entry point
 └── index.css                 # Global styles
 ```
+
 ## Setup Instructions
+
 git clone https://github.com/VihaRathod/crypto-price-tracker.git
 cd crypto-price-tracker
 npm install
-npm run dev   
+npm run dev
 
 ## Features
+
 Real-time simulated price updates every 1-2 seconds
 Mini charts showing recent price trends
 Dynamic price and volume changes
 Responsive and stylish crypto table layout
 Built with Redux Toolkit and React best practices
 
+=======
 
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+> > > > > > > e760d71 (Initial commit)

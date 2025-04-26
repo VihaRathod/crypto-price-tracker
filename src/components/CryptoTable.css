@@ -1,0 +1,50 @@
+.table-container {
+    overflow-x: auto;
+  }
+  
+  .crypto-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  .crypto-table th, 
+  .crypto-table td {
+    padding: 16px 12px;
+    text-align: left;
+    border-bottom: 1px solid #eaecef;
+  }
+  
+  .crypto-table th {
+    font-weight: 600;
+    color: #777e90;
+    background-color: #f9fafb;
+  }
+  
+  .crypto-table tbody tr:hover {
+    background-color: #f8fafd;
+  }
+  
+  @media (max-width: 768px) {
+    .crypto-table th:nth-child(7),
+    .crypto-table td:nth-child(7),
+    .crypto-table th:nth-child(8),
+    .crypto-table td:nth-child(8),
+    .crypto-table th:nth-child(9),
+    .crypto-table td:nth-child(9) {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .crypto-table th:nth-child(4),
+    .crypto-table td:nth-child(4),
+    .crypto-table th:nth-child(5),
+    .crypto-table td:nth-child(5),
+    .crypto-table th:nth-child(10),
+    .crypto-table td:nth-child(10) {
+      display: none;
+    }
+  }

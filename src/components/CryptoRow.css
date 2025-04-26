@@ -1,0 +1,44 @@
+.name-cell {
+    min-width: 180px;
+  }
+  
+  .logo-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .crypto-logo {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0b90b;
+    color: white;
+    border-radius: 50%;
+    font-size: 14px;
+  }
+  
+  .crypto-name {
+    display: block;
+    font-weight: 500;
+  }
+  
+  .crypto-symbol {
+    display: block;
+    color: #777e90;
+    font-size: 12px;
+  }
+  
+  .positive {
+    color: #16c784;
+    font-weight: 500;
+  }
+  
+  .negative {
+    color: #ea3943;
+    font-weight: 500;
+  }
+  
+ 
